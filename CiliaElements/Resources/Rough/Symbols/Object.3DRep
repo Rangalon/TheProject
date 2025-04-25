@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="3">
+			<Rep xsi:type="BagRepType" id="113">
+				<Rep xsi:type="PolygonalRepType" id="9802" accuracy="0.173551" solid="1">
+					<PolygonalLOD accuracy="68.2908">
+						<Faces>
+							<Face triangles="3 0 6 0 15 6 5 8 41 8 37 41 2 4 34 4 40 34 12 26 30 10 23 27 28 14 10 14 20 11 19 32 38 29 23 36 25 21 29 17 13 31 16 1 9 1 33 9 9 33 22 7 18 36 42 39 35 39 24 35 ">
+								<SurfaceAttributes>
+									<Color xsi:type="RGBAColorType" red="0" green="1" blue="0" alpha="1"/>
+								</SurfaceAttributes>
+							</Face>
+						</Faces>
+					</PolygonalLOD>
+					<Faces>
+						<Face strips="3 0 6 43,5 8 41 71,2 4 34 40,12 49 30 26,10 57 50 27,51 14 11 48,23 65 59 67,19 54 38 63 68 60,55 21 25 58 29 61,53 47 62 13 31,1 46 44 52 16,46 1 9 33 56 64 22,70 7 36 45 18,72 39 42 69 35 66">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0" green="1" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="1" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="-50 50 -50,-50 50 50"/>
+						<Polyline vertices="-50 -50 -50,-50 -50 50"/>
+						<Polyline vertices="-50 50 -50,-50 -50 -50"/>
+						<Polyline vertices="-50 50 50,-50 -50 50"/>
+						<Polyline vertices="-50 -50 -50,50 -50 -50"/>
+						<Polyline vertices="50 50 -50,50 50 50"/>
+						<Polyline vertices="50 -50 -50,50 50 -50"/>
+						<Polyline vertices="50 50 -50,-50 50 -50"/>
+						<Polyline vertices="50 50 50,-50 50 50"/>
+						<Polyline vertices="-45 40 45,-45 40 -45"/>
+						<Polyline vertices="45 40 45,45 40 -45"/>
+						<Polyline vertices="45 40 45,-45 40 45"/>
+						<Polyline vertices="45 40 -45,-45 40 -45"/>
+						<Polyline vertices="-45 -50 -45,-45 -50 45"/>
+						<Polyline vertices="-45 -50 -45,45 -50 -45"/>
+						<Polyline vertices="-45 40 45,-45 -50 45"/>
+						<Polyline vertices="-45 40 -45,-45 -50 -45"/>
+						<Polyline vertices="45 -50 -45,45 40 -45"/>
+						<Polyline vertices="50 44.9221 50,50 44.9221 0"/>
+						<Polyline vertices="50 44.9221 50,-18.3865 -50 50"/>
+						<Polyline vertices="45 37.982 45,-18.3865 -50 45"/>
+						<Polyline vertices="45 37.982 45,45 37.982 0"/>
+						<Polyline vertices="50 -50 0,50 44.9221 0"/>
+						<Polyline vertices="-18.3865 -50 50,-18.3865 -50 45"/>
+						<Polyline vertices="50 -50 0,45 -50 0"/>
+						<Polyline vertices="45 -50 0,45 37.982 0"/>
+						<Polyline vertices="50 44.9221 0,45 37.982 0"/>
+						<Polyline vertices="50 -50 -50,50 -50 0"/>
+						<Polyline vertices="50 44.9221 50,50 50 50"/>
+						<Polyline vertices="-50 -50 50,-18.3865 -50 50"/>
+						<Polyline vertices="-45 -50 45,-18.3865 -50 45"/>
+						<Polyline vertices="45 -50 -45,45 -50 0"/>
+						<Polyline vertices="45 37.982 45,45 40 45"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-50 -50 -50,-50 -50 -50,-50 -50 -50,-50 50 -50,-50 50 -50,-50 50 -50,-50 50 50,-50 50 50,-50 50 50,-45 -50 -45,-45 -50 -45,-45 -50 -45,-45 40 45,-45 40 45,-45 40 45,-18.3865 -50 50,-18.3865 -50 50,-18.3865 -50 50,-18.3865 -50 50,-18.3865 -50 50,-18.3865 -50 50,45 -50 0,45 -50 0,45 -50 0,45 -50 0,45 40 -45,45 40 -45,45 40 -45,45 40 -45,45 40 45,45 40 45,45 40 45,45 40 45,50 -50 -50,50 -50 -50,50 -50 -50,50 44.9221 50,50 44.9221 50,50 44.9221 50,50 44.9221 50,50 50 -50,50 50 -50,50 50 -50,-50 -50 50,-50 -50 50,-50 -50 50,-45 -50 45,-45 -50 45,-45 -50 45,-45 40 -45,-45 40 -45,-45 40 -45,-18.3865 -50 45,-18.3865 -50 45,-18.3865 -50 45,45 -50 -45,45 -50 -45,45 -50 -45,45 37.982 0,45 37.982 0,45 37.982 0,45 37.982 45,45 37.982 45,45 37.982 45,50 -50 0,50 -50 0,50 -50 0,50 44.9221 0,50 44.9221 0,50 44.9221 0,50 50 50,50 50 50,50 50 50</Positions>
+						<Normals>-1 0 0,-0 -1 0,-0 -0 -1,-1 0 0,-0 -0 -1,-0 1 -0,-1 0 0,0 0 1,-0 1 -0,-0 -1 0,0 0 1,1 0 0,0 -1 -0,-0 -0 -1,1 0 0,-1 0 0,-0 -1 0,-0 -0 -1,0 0 1,0.811362 -0.584545 0,1 0 0,-1 0 0,-0 -1 0,0 0 1,1 0 0,-1 0 0,0 -1 -0,0 0 1,1 0 0,-1 0 0,0 -1 -0,-0 -0 -1,0.811362 -0.584545 0,-0 -1 0,-0 -0 -1,1 0 0,0 0 1,-0 1 -0,0.811362 -0.584545 0,1 0 0,-0 -0 -1,-0 1 -0,1 0 0,-1 0 0,-0 -1 0,0 0 1,-0 -1 0,-0 -0 -1,1 0 0,0 -1 -0,0 0 1,1 0 0,-0 -1 0,-0 -0 -1,0.811362 -0.584545 0,-1 0 0,-0 -1 0,0 0 1,-1 0 0,0 0 1,0.811362 -0.584545 0,-1 0 0,-0 -0 -1,0.811362 -0.584545 0,-0 -1 0,0 0 1,1 0 0,0 0 1,0.811362 -0.584545 0,1 0 0,0 0 1,-0 1 -0,1 0 0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="80">
+			<Rep xsi:type="BagRepType" id="101">
+				<Rep xsi:type="PolygonalRepType" id="1040" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="1 2 0 4 6,2 1 3 7 5 6 4">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="1" green="0.501961" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="1" green="0.501961" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="0 0 0,1000 0 0"/>
+						<Polyline vertices="1000 0 0,1000 1000 0"/>
+						<Polyline vertices="1000 1000 0,1.13687e-013 1000 0"/>
+						<Polyline vertices="1.13687e-013 1000 0,0 0 0"/>
+						<Polyline vertices="14.1421 985.858 0,985.858 985.858 0"/>
+						<Polyline vertices="985.858 985.858 0,985.858 14.1421 0"/>
+						<Polyline vertices="14.1421 14.1421 0,985.858 14.1421 0"/>
+						<Polyline vertices="14.1421 14.1421 0,14.1421 985.858 0"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>0 0 0,1.13687e-013 1000 0,14.1421 14.1421 0,14.1421 985.858 0,985.858 14.1421 0,985.858 985.858 0,1000 0 0,1000 1000 0</Positions>
+						<Normals>-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="118">
+				<Rep xsi:type="PolygonalRepType" id="1439" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="1 2 0 4 6,2 1 3 7 5 6 4">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="0 0 0,6.12323e-014 0 1000"/>
+						<Polyline vertices="6.12323e-014 0 1000,6.12323e-014 1000 1000"/>
+						<Polyline vertices="6.12323e-014 1000 1000,6.96131e-030 1000 1.13687e-013"/>
+						<Polyline vertices="6.96131e-030 1000 1.13687e-013,0 0 0"/>
+						<Polyline vertices="8.65956e-016 985.858 14.1421,6.03664e-014 985.858 985.858"/>
+						<Polyline vertices="6.03664e-014 985.858 985.858,6.03664e-014 14.1421 985.858"/>
+						<Polyline vertices="8.65956e-016 14.1421 14.1421,6.03664e-014 14.1421 985.858"/>
+						<Polyline vertices="8.65956e-016 14.1421 14.1421,8.65956e-016 985.858 14.1421"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>0 0 0,6.96131e-030 1000 1.13687e-013,8.65956e-016 14.1421 14.1421,8.65956e-016 985.858 14.1421,6.03664e-014 14.1421 985.858,6.03664e-014 985.858 985.858,6.12323e-014 0 1000,6.12323e-014 1000 1000</Positions>
+						<Normals>1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="130">
+				<Rep xsi:type="PolygonalRepType" id="1831" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="1 2 0 4 6,2 1 3 7 5 6 4">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="0 0 0,1000 0 0"/>
+						<Polyline vertices="1000 0 0,1000 6.12323e-014 1000"/>
+						<Polyline vertices="1000 6.12323e-014 1000,1.13687e-013 6.12323e-014 1000"/>
+						<Polyline vertices="1.13687e-013 6.12323e-014 1000,0 0 0"/>
+						<Polyline vertices="14.1421 6.03664e-014 985.858,985.858 6.03664e-014 985.858"/>
+						<Polyline vertices="985.858 6.03664e-014 985.858,985.858 8.65956e-016 14.1421"/>
+						<Polyline vertices="14.1421 8.65956e-016 14.1421,985.858 8.65956e-016 14.1421"/>
+						<Polyline vertices="14.1421 8.65956e-016 14.1421,14.1421 6.03664e-014 985.858"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>0 0 0,1.13687e-013 6.12323e-014 1000,14.1421 8.65956e-016 14.1421,14.1421 6.03664e-014 985.858,985.858 8.65956e-016 14.1421,985.858 6.03664e-014 985.858,1000 0 0,1000 6.12323e-014 1000</Positions>
+						<Normals>-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="149">
+				<Rep xsi:type="PolygonalRepType" id="2100" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="1 2 0 4 6,2 1 3 7 5 6 4">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="0 0 1000,1000 0 1000"/>
+						<Polyline vertices="1000 0 1000,1000 1000 1000"/>
+						<Polyline vertices="1000 1000 1000,1.13687e-013 1000 1000"/>
+						<Polyline vertices="1.13687e-013 1000 1000,0 0 1000"/>
+						<Polyline vertices="14.1421 985.858 1000,985.858 985.858 1000"/>
+						<Polyline vertices="985.858 985.858 1000,985.858 14.1421 1000"/>
+						<Polyline vertices="14.1421 14.1421 1000,985.858 14.1421 1000"/>
+						<Polyline vertices="14.1421 14.1421 1000,14.1421 985.858 1000"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>0 0 1000,1.13687e-013 1000 1000,14.1421 14.1421 1000,14.1421 985.858 1000,985.858 14.1421 1000,985.858 985.858 1000,1000 0 1000,1000 1000 1000</Positions>
+						<Normals>-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1,-0 -0 -1</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="168">
+				<Rep xsi:type="PolygonalRepType" id="2321" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="6 2 0 3 1,2 6 4 7 5 1 3">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="1000 0 0,1000 0 1000"/>
+						<Polyline vertices="1000 0 1000,1000 1000 1000"/>
+						<Polyline vertices="1000 1000 1000,1000 1000 1.13687e-013"/>
+						<Polyline vertices="1000 1000 1.13687e-013,1000 0 0"/>
+						<Polyline vertices="1000 985.858 14.1421,1000 985.858 985.858"/>
+						<Polyline vertices="1000 985.858 985.858,1000 14.1421 985.858"/>
+						<Polyline vertices="1000 14.1421 14.1421,1000 14.1421 985.858"/>
+						<Polyline vertices="1000 14.1421 14.1421,1000 985.858 14.1421"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>1000 0 0,1000 0 1000,1000 14.1421 14.1421,1000 14.1421 985.858,1000 985.858 14.1421,1000 985.858 985.858,1000 1000 1.13687e-013,1000 1000 1000</Positions>
+						<Normals>1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017,1 -0 -6.12323e-017</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="187">
+				<Rep xsi:type="PolygonalRepType" id="2506" accuracy="1.4145" solid="0">
+					<Faces>
+						<Face strips="1 2 0 4 6,2 1 3 7 5 6 4">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="0 1000 0,1000 1000 0"/>
+						<Polyline vertices="1000 1000 0,1000 1000 1000"/>
+						<Polyline vertices="1000 1000 1000,1.13687e-013 1000 1000"/>
+						<Polyline vertices="1.13687e-013 1000 1000,0 1000 0"/>
+						<Polyline vertices="14.1421 1000 985.858,985.858 1000 985.858"/>
+						<Polyline vertices="985.858 1000 985.858,985.858 1000 14.1421"/>
+						<Polyline vertices="14.1421 1000 14.1421,985.858 1000 14.1421"/>
+						<Polyline vertices="14.1421 1000 14.1421,14.1421 1000 985.858"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>0 1000 0,1.13687e-013 1000 1000,14.1421 1000 14.1421,14.1421 1000 985.858,985.858 1000 14.1421,985.858 1000 985.858,1000 1000 0,1000 1000 1000</Positions>
+						<Normals>-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017,-0 1 -6.12323e-017</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

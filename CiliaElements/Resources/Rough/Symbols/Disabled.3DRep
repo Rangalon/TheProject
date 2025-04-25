@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="96">
+			<Rep xsi:type="BagRepType" id="103">
+				<Rep xsi:type="PolygonalRepType" id="1444" accuracy="0.283126" solid="0">
+					<Faces>
+						<Face triangles="4 2 0 " strips="9 11 6 7 5,5 2 6 4 3 1,8 5 10 7">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.501961" green="0" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0.501961" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="80 -100 -100,0 -100 -20"/>
+						<Polyline vertices="0 -100 -20,-80 -100 -100"/>
+						<Polyline vertices="-80 -100 -100,-100 -100 -80"/>
+						<Polyline vertices="-100 -100 -80,-20 -100 0"/>
+						<Polyline vertices="-20 -100 0,-100 -100 80"/>
+						<Polyline vertices="-100 -100 80,-80 -100 100"/>
+						<Polyline vertices="-80 -100 100,0 -100 20"/>
+						<Polyline vertices="0 -100 20,80 -100 100"/>
+						<Polyline vertices="80 -100 100,100 -100 80"/>
+						<Polyline vertices="100 -100 80,20 -100 0"/>
+						<Polyline vertices="20 -100 0,100 -100 -80"/>
+						<Polyline vertices="100 -100 -80,80 -100 -100"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-100 -100 -80,-100 -100 80,-80 -100 -100,-80 -100 100,-20 -100 0,0 -100 -20,0 -100 20,20 -100 0,80 -100 -100,80 -100 100,100 -100 -80,100 -100 80</Positions>
+						<Normals>0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0,0 1 0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

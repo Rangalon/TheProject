@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Model_3dxml xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Header>
+		<SchemaVersion>4.3</SchemaVersion>
+		<Title>Symbols 3D XML File</Title>
+		<Author>to101757</Author>
+		<Generator>CATIA V5</Generator>
+		<Created>2017-08-30</Created>
+	</Header>
+	<ProductStructure root="1">
+		<Reference3D xsi:type="Reference3DType" id="1" name="Symbols">
+			<PLM_ExternalID>Symbols</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="3" name="Disabled">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>2</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="2" name="Disabled">
+			<PLM_ExternalID>Disabled</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="5" name="Enabled">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>4</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="4" name="Enabled">
+			<PLM_ExternalID>Enabled</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="7" name="Object">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>6</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="6" name="Object">
+			<PLM_ExternalID>Object</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="9" name="FaceRotate">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>8</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="8" name="FaceRotate">
+			<PLM_ExternalID>FaceRotate</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="11" name="FaceTranslate.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>10</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="10" name="FaceTranslate">
+			<PLM_ExternalID>FaceTranslate</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="13" name="SideRotate.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>12</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="12" name="SideRotate">
+			<PLM_ExternalID>SideRotate</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="15" name="SideTranslate.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>14</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="14" name="SideTranslate">
+			<PLM_ExternalID>SideTranslate</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="17" name="Plane-Point.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>16</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="16" name="Plane-Point">
+			<PLM_ExternalID>Plane-Point</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="19" name="Plane-Line.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>18</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="18" name="Plane-Line">
+			<PLM_ExternalID>Plane-Line</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="21" name="Plane-Plane.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>20</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="20" name="Plane-Plane">
+			<PLM_ExternalID>Plane-Plane</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="23" name="Line-Point.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>22</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="22" name="Line-Point">
+			<PLM_ExternalID>Line-Point</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="25" name="Line-Line.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>24</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="24" name="Line-Line">
+			<PLM_ExternalID>Line-Line</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="27" name="Point-Point.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>26</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="26" name="Point-Point">
+			<PLM_ExternalID>Point-Point</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="29" name="BackGround.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>28</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="28" name="BackGround">
+			<PLM_ExternalID>BackGround</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="33" name="Digit.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>30</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="30" name="Digit">
+			<PLM_ExternalID>Digit</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="32" name="Segment.42">
+			<IsAggregatedBy>30</IsAggregatedBy>
+			<IsInstanceOf>31</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="31" name="Segment">
+			<PLM_ExternalID>Segment</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="35" name="MeasureArrow.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>34</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="34" name="MeasureArrow">
+			<PLM_ExternalID>MeasureArrow</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="37" name="MeasurePoint.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>36</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="36" name="MeasurePoint">
+			<PLM_ExternalID>MeasurePoint</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="39" name="TreeRoot.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>38</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="38" name="TreeRoot">
+			<PLM_ExternalID>TreeRoot</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="41" name="TreeBranch.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>40</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="40" name="TreeBranch">
+			<PLM_ExternalID>TreeBranch</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="43" name="TreeLine.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>42</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="42" name="TreeLine">
+			<PLM_ExternalID>TreeLine</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="45" name="BBox.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>44</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="44" name="BBox">
+			<PLM_ExternalID>BBox</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="47" name="TreeLink.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>46</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="46" name="TreeLink">
+			<PLM_ExternalID>TreeLink</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="49" name="Expand.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>48</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="48" name="Expand">
+			<PLM_ExternalID>Expand</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="51" name="Collapse.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>50</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="50" name="Collapse">
+			<PLM_ExternalID>Collapse</PLM_ExternalID>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="53" name="Visible.1">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>52</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="52" name="Visible">
+			<PLM_ExternalID>Visible</PLM_ExternalID>
+		</Reference3D>
+		<ReferenceRep xsi:type="ReferenceRepType" id="54" name="Disabled_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Disabled.3DRep">
+			<PLM_ExternalID>Disabled_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="55" name="Disabled_InstanceRep">
+			<IsAggregatedBy>2</IsAggregatedBy>
+			<IsInstanceOf>54</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="56" name="Enabled_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Enabled.3DRep">
+			<PLM_ExternalID>Enabled_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="57" name="Enabled_InstanceRep">
+			<IsAggregatedBy>4</IsAggregatedBy>
+			<IsInstanceOf>56</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="58" name="Object_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Object.3DRep">
+			<PLM_ExternalID>Object_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="59" name="Object_InstanceRep">
+			<IsAggregatedBy>6</IsAggregatedBy>
+			<IsInstanceOf>58</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="60" name="FaceRotate_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:FaceRotate.3DRep">
+			<PLM_ExternalID>FaceRotate_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="61" name="FaceRotate_InstanceRep">
+			<IsAggregatedBy>8</IsAggregatedBy>
+			<IsInstanceOf>60</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="62" name="FaceTranslate_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:FaceTranslate.3DRep">
+			<PLM_ExternalID>FaceTranslate_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="63" name="FaceTranslate_InstanceRep">
+			<IsAggregatedBy>10</IsAggregatedBy>
+			<IsInstanceOf>62</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="64" name="SideRotate_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:SideRotate.3DRep">
+			<PLM_ExternalID>SideRotate_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="65" name="SideRotate_InstanceRep">
+			<IsAggregatedBy>12</IsAggregatedBy>
+			<IsInstanceOf>64</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="66" name="SideTranslate_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:SideTranslate.3DRep">
+			<PLM_ExternalID>SideTranslate_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="67" name="SideTranslate_InstanceRep">
+			<IsAggregatedBy>14</IsAggregatedBy>
+			<IsInstanceOf>66</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="68" name="Plane-Point_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Plane_Point.3DRep">
+			<PLM_ExternalID>Plane-Point_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="69" name="Plane-Point_InstanceRep">
+			<IsAggregatedBy>16</IsAggregatedBy>
+			<IsInstanceOf>68</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="70" name="Plane-Line_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Plane_Line.3DRep">
+			<PLM_ExternalID>Plane-Line_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="71" name="Plane-Line_InstanceRep">
+			<IsAggregatedBy>18</IsAggregatedBy>
+			<IsInstanceOf>70</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="72" name="Plane-Plane_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Plane_Plane.3DRep">
+			<PLM_ExternalID>Plane-Plane_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="73" name="Plane-Plane_InstanceRep">
+			<IsAggregatedBy>20</IsAggregatedBy>
+			<IsInstanceOf>72</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="74" name="Line-Point_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Line_Point.3DRep">
+			<PLM_ExternalID>Line-Point_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="75" name="Line-Point_InstanceRep">
+			<IsAggregatedBy>22</IsAggregatedBy>
+			<IsInstanceOf>74</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="76" name="Line-Line_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Line_Line.3DRep">
+			<PLM_ExternalID>Line-Line_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="77" name="Line-Line_InstanceRep">
+			<IsAggregatedBy>24</IsAggregatedBy>
+			<IsInstanceOf>76</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="78" name="Point-Point_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Point_Point.3DRep">
+			<PLM_ExternalID>Point-Point_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="79" name="Point-Point_InstanceRep">
+			<IsAggregatedBy>26</IsAggregatedBy>
+			<IsInstanceOf>78</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="80" name="BackGround_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:BackGround.3DRep">
+			<PLM_ExternalID>BackGround_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="81" name="BackGround_InstanceRep">
+			<IsAggregatedBy>28</IsAggregatedBy>
+			<IsInstanceOf>80</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="82" name="Segment_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Segment.3DRep">
+			<PLM_ExternalID>Segment_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="83" name="Segment_InstanceRep">
+			<IsAggregatedBy>31</IsAggregatedBy>
+			<IsInstanceOf>82</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="84" name="MeasureArrow_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:MeasureArrow.3DRep">
+			<PLM_ExternalID>MeasureArrow_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="85" name="MeasureArrow_InstanceRep">
+			<IsAggregatedBy>34</IsAggregatedBy>
+			<IsInstanceOf>84</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="86" name="MeasurePoint_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:MeasurePoint.3DRep">
+			<PLM_ExternalID>MeasurePoint_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="87" name="MeasurePoint_InstanceRep">
+			<IsAggregatedBy>36</IsAggregatedBy>
+			<IsInstanceOf>86</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="88" name="TreeRoot_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:TreeRoot.3DRep">
+			<PLM_ExternalID>TreeRoot_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="89" name="TreeRoot_InstanceRep">
+			<IsAggregatedBy>38</IsAggregatedBy>
+			<IsInstanceOf>88</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="90" name="TreeBranch_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:TreeBranch.3DRep">
+			<PLM_ExternalID>TreeBranch_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="91" name="TreeBranch_InstanceRep">
+			<IsAggregatedBy>40</IsAggregatedBy>
+			<IsInstanceOf>90</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="92" name="TreeLine_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:TreeLine.3DRep">
+			<PLM_ExternalID>TreeLine_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="93" name="TreeLine_InstanceRep">
+			<IsAggregatedBy>42</IsAggregatedBy>
+			<IsInstanceOf>92</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="94" name="BBox_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:BBox.3DRep">
+			<PLM_ExternalID>BBox_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="95" name="BBox_InstanceRep">
+			<IsAggregatedBy>44</IsAggregatedBy>
+			<IsInstanceOf>94</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="96" name="TreeLink_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:TreeLink.3DRep">
+			<PLM_ExternalID>TreeLink_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="97" name="TreeLink_InstanceRep">
+			<IsAggregatedBy>46</IsAggregatedBy>
+			<IsInstanceOf>96</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="98" name="Expand_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Expand.3DRep">
+			<PLM_ExternalID>Expand_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="99" name="Expand_InstanceRep">
+			<IsAggregatedBy>48</IsAggregatedBy>
+			<IsInstanceOf>98</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="100" name="Collapse_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Collapse.3DRep">
+			<PLM_ExternalID>Collapse_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="101" name="Collapse_InstanceRep">
+			<IsAggregatedBy>50</IsAggregatedBy>
+			<IsInstanceOf>100</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="102" name="Visible_ReferenceRep" format="TESSELLATED" version="1.2" associatedFile="urn:3DXML:Visible.3DRep">
+			<PLM_ExternalID>Visible_ReferenceRep</PLM_ExternalID>
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="103" name="Visible_InstanceRep">
+			<IsAggregatedBy>52</IsAggregatedBy>
+			<IsInstanceOf>102</IsInstanceOf>
+		</InstanceRep>
+	</ProductStructure>
+	<DefaultView>
+		<Viewpoint xsi:type="ParallelViewpointType" visualizedHeight="250.9461704" targetDistance="1045.266235" nearPlaneDistance="-241.6158447" farPlaneDistance="2763.837402">
+			<Position>-438.8690796 -818.1905518 406.2677917</Position>
+			<Sight>0.4397104681 0.7661808729 -0.4686380625</Sight>
+			<Right>0.8626359701 -0.5055356026 -0.01711684465</Right>
+			<Up>0.2500278056 0.3967376053 0.8832244277</Up>
+		</Viewpoint>
+	</DefaultView>
+</Model_3dxml>

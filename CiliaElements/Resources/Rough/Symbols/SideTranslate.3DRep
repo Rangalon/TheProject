@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="3">
+			<Rep xsi:type="BagRepType" id="61">
+				<Rep xsi:type="PolygonalRepType" id="1848" accuracy="0.723132" solid="1">
+					<Faces>
+						<Face triangles="12 4 1 8 10 16 23 34 31 24 28 19 " strips="0 3 6 9,14 17 5 11,2 7 13 15,32 35 26 29,21 18 33 27,20 22 25 30">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="1" green="0.501961" blue="0.501961" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="-300 -200 -250,-300 200 -250"/>
+						<Polyline vertices="-300 -200 -300,-300 200 -300"/>
+						<Polyline vertices="-300 -200 -250,-300 -200 -300"/>
+						<Polyline vertices="-300 200 -250,-300 200 -300"/>
+						<Polyline vertices="-250 -200 -300,-250 200 -300"/>
+						<Polyline vertices="-250 -200 -300,-300 -200 -250"/>
+						<Polyline vertices="-250 200 -300,-300 200 -250"/>
+						<Polyline vertices="-300 -200 -300,-250 -200 -300"/>
+						<Polyline vertices="-300 200 -300,-250 200 -300"/>
+						<Polyline vertices="300 200 -250,300 -200 -250"/>
+						<Polyline vertices="300 200 -250,300 200 -300"/>
+						<Polyline vertices="300 200 -300,300 -200 -300"/>
+						<Polyline vertices="300 -200 -250,300 -200 -300"/>
+						<Polyline vertices="250 200 -300,250 -200 -300"/>
+						<Polyline vertices="250 200 -300,300 200 -250"/>
+						<Polyline vertices="250 -200 -300,300 -200 -250"/>
+						<Polyline vertices="300 200 -300,250 200 -300"/>
+						<Polyline vertices="300 -200 -300,250 -200 -300"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-300 -200 -300,-300 -200 -300,-300 -200 -300,-300 -200 -250,-300 -200 -250,-300 -200 -250,-300 200 -300,-300 200 -300,-300 200 -300,-300 200 -250,-300 200 -250,-300 200 -250,-250 -200 -300,-250 -200 -300,-250 -200 -300,-250 200 -300,-250 200 -300,-250 200 -300,250 -200 -300,250 -200 -300,250 -200 -300,250 200 -300,250 200 -300,250 200 -300,300 -200 -300,300 -200 -300,300 -200 -300,300 -200 -250,300 -200 -250,300 -200 -250,300 200 -300,300 200 -300,300 200 -300,300 200 -250,300 200 -250,300 200 -250</Positions>
+						<Normals>-1 0 0,-0 -1 -0,-0 -0 -1,-1 0 0,-0 -1 -0,0.707107 -0 0.707107,-1 0 0,-0 -0 -1,0 1 0,-1 0 0,0 1 0,0.707107 -0 0.707107,-0 -1 -0,-0 -0 -1,0.707107 -0 0.707107,-0 -0 -1,0 1 0,0.707107 -0 0.707107,-0.707107 8.65956e-017 0.707107,-1.22465e-016 -1 0,-0 -0 -1,-0.707107 8.65956e-017 0.707107,-0 -0 -1,1.22465e-016 1 -0,-1.22465e-016 -1 0,-0 -0 -1,1 -1.22465e-016 0,-0.707107 8.65956e-017 0.707107,-1.22465e-016 -1 0,1 -1.22465e-016 0,-0 -0 -1,1.22465e-016 1 -0,1 -1.22465e-016 0,-0.707107 8.65956e-017 0.707107,1.22465e-016 1 -0,1 -1.22465e-016 0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

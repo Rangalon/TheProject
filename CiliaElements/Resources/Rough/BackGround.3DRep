@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="79">
+			<Rep xsi:type="BagRepType" id="194">
+				<Rep xsi:type="PolygonalRepType" id="7919" accuracy="0.402522" solid="0">
+					<Faces>
+						<Face strips="0 2 1 3">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="0.6"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="0.6"/>
+						</LineAttributes>
+						<Polyline vertices="115 5 -165,-115 5 -165"/>
+						<Polyline vertices="-115 5 -165,-115 5 165"/>
+						<Polyline vertices="-115 5 165,115 5 165"/>
+						<Polyline vertices="115 5 165,115 5 -165"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-115 5 -165,-115 5 165,115 5 -165,115 5 165</Positions>
+						<Normals>-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

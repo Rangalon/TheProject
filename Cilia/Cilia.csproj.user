@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\to101757\Documents\92.VB.Net\Publish\Cilia\Publish\|sftp://fr0-h4u002-i01.eu-v.airbus-v.corp:22/R600/web/R600/Cilia/|\\sfs.corp\Projects\ICT\ILOL_MES_AND_CAX_SOLUTIONS\CAX\Cilia\Publish\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://shopfloor-ng.eu.airbus.corp:8108/R600/Cilia/|http://shopfloor-ng-i.eu.airbus.corp:8108/R600/Cilia/|\\sfs.corp\Apps\PROGRAMMES\QUALITY_GROUND_TEST\iGT\Publish\Cilia\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

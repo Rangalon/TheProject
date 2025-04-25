@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A37A7E14-0000-0000-0000-000000000000}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>OpenTK</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>
+    </AppDesignerFolder>
+    <RootNamespace>OpenTK</RootNamespace>
+    <StartArguments>
+    </StartArguments>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\..\OpenTK.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>OpenTK.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Build\OpenTK\bin\x64\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <BaseIntermediateOutputPath>..\..\..\Build\OpenTK\obj\x64\Debug\</BaseIntermediateOutputPath>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Build\OpenTK\bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <BaseIntermediateOutputPath>..\..\..\Build\OpenTK\obj\x86\Debug\</BaseIntermediateOutputPath>
+    <Optimize>true</Optimize>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Build\OpenTK\bin\x64\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- <Compile Include="GlobalAssemblyInfo.cs">
+      <Link>Properties\GlobalAssemblyInfo.cs</Link>
+    </Compile> -->
+    <Compile Include="Classes\AutoGeneratedAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\BindingsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\BlittableValueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Configuration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ContextHandle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DisplayDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DisplayIndex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DisplayResolution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\GameWindowFlags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\INativeWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\KeyPressEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MouseCursor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NativeWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\SlotAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Toolkit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ToolkitOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\WindowIcon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\ColorFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsBindingsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsContextBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsContextException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsContextFlags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsContextMissingException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphicsModeException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\IGraphicsContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\OpenGL\GL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\OpenGL\GLEnums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\OpenGL\GLHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\Buttons.cs" />
+    <Compile Include="Input\ButtonState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\ConfigurationType.cs" />
+    <Compile Include="Input\GamePad.cs" />
+    <Compile Include="Input\GamePadAxes.cs" />
+    <Compile Include="Input\GamePadButtons.cs" />
+    <Compile Include="Input\GamePadCapabilities.cs" />
+    <Compile Include="Input\GamePadConfiguration.cs" />
+    <Compile Include="Input\GamePadConfigurationDatabase.cs" />
+    <Compile Include="Input\GamePadConfigurationItem.cs" />
+    <Compile Include="Input\GamePadConfigurationSource.cs" />
+    <Compile Include="Input\GamePadConfigurationTarget.cs" />
+    <Compile Include="Input\GamePadDPad.cs" />
+    <Compile Include="Input\GamePadState.cs" />
+    <Compile Include="Input\GamePadThumbSticks.cs" />
+    <Compile Include="Input\GamePadTriggers.cs" />
+    <Compile Include="Input\GamePadType.cs" />
+    <Compile Include="Input\HatPosition.cs" />
+    <Compile Include="Input\Joystick.cs" />
+    <Compile Include="Input\JoystickAxis.cs" />
+    <Compile Include="Input\JoystickButton.cs" />
+    <Compile Include="Input\JoystickCapabilities.cs" />
+    <Compile Include="Input\JoystickDevice.cs" />
+    <Compile Include="Input\JoystickHat.cs" />
+    <Compile Include="Input\JoystickHatState.cs" />
+    <Compile Include="Input\JoystickState.cs" />
+    <Compile Include="Input\Key.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\Keyboard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\KeyboardKeyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\KeyboardState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\KeyModifiers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\Mouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\MouseButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\MouseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\MouseState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\Touch.cs" />
+    <Compile Include="Input\TouchEventArgs.cs" />
+    <Compile Include="Input\TouchFinger.cs" />
+    <Compile Include="Input\TouchState.cs" />
+    <Compile Include="Input\TouchType.cs" />
+    <Compile Include="Platform\DesktopGraphicsContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\DisplayDeviceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Dummy\DummyGLContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Dummy\DummyWindowInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Factory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\IPlatformFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\IWindowInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\MappedGamePadDriver.cs" />
+    <Compile Include="Platform\NativeWindowBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\PlatformException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\PlatformFactoryBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Utilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\API.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\Bindings\Wgl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\Bindings\WglEnums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\CreateStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\DeviceMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\Functions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\RawInputDeviceInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\StyleStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WglHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinDisplayDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WindowsDisplayDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinGLContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinGLNative.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinGraphicsMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinInputBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinKeyMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinMMJoystick.cs" />
+    <Compile Include="Platform\Windows\WinRawInput.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinRawKeyboard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinRawMouse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Platform\Windows\WinRawTouch.cs" />
+    <Compile Include="Platform\Windows\WinWindowInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <Exec Command="Tools\x86\Debug\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk -debug" Condition="$(OS) == 'Windows_NT' and '$(Configuration)|$(Platform)' == 'Debug|x86'" />
+    <Exec Command="Tools\x64\Debug\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk -debug" Condition="$(OS) == 'Windows_NT' and '$(Configuration)|$(Platform)' == 'Debug|x64'" />
+    <Exec Command="Tools\x86\Release\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk -debug" Condition="$(OS) == 'Windows_NT' and '$(Configuration)|$(Platform)' == 'Release|x86'" />
+    <Exec Command="Tools\x64\Release\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk -debug" Condition="$(OS) == 'Windows_NT' and '$(Configuration)|$(Platform)' == 'Release|x64'" />
+    <Exec Command="Tools\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk" Condition="$(OS) == 'Windows_NT' and $(Configuration) != 'Debug'" />
+    <Exec Command="mono $(OutputPath)Tools\Debug\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk -debug" Condition="$(OS) != 'Windows_NT' and $(Configuration) == 'Debug'" />
+    <Exec Command="mono $(OutputPath)Tools\Release\Rewrite.exe $(OutputPath)OpenTK.dll ..\..\OpenTK.snk" Condition="$(OS) != 'Windows_NT' and $(Configuration) != 'Debug'" />
+  </Target>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain" />
+          <CSharpFormattingPolicy IndentSwitchBody="True" AnonymousMethodBraceStyle="NextLine" PropertyBraceStyle="NextLine" PropertyGetBraceStyle="NextLine" PropertySetBraceStyle="NextLine" EventBraceStyle="NextLine" EventAddBraceStyle="NextLine" EventRemoveBraceStyle="NextLine" StatementBraceStyle="NextLine" ElseNewLinePlacement="NewLine" CatchNewLinePlacement="NewLine" FinallyNewLinePlacement="NewLine" WhileNewLinePlacement="NewLine" ArrayInitializerBraceStyle="NextLine" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" BeforeIndexerDeclarationBracket="False" BeforeDelegateDeclarationParentheses="False" NewParentheses="False" SpacesBeforeBrackets="False" BlankLinesBeforeFirstDeclaration="1" AlignToFirstMethodDeclarationParameter="False" AlignToFirstIndexerDeclarationParameter="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+          <TextStylePolicy FileWidth="120" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
+          <StandardHeader Text="#region License&#xA;&#xA;${FileName}&#xA; &#xA;Author:&#xA;      ${AuthorName} &lt;${AuthorEmail}&gt;&#xA;&#xA;Copyright (c) 2006-${Year} ${CopyrightHolder}&#xA;&#xA;Permission is hereby granted, free of charge, to any person obtaining a copy&#xA;of this software and associated documentation files (the &quot;Software&quot;), to deal&#xA;in the Software without restriction, including without limitation the rights&#xA;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xA;copies of the Software, and to permit persons to whom the Software is&#xA;furnished to do so, subject to the following conditions:&#xA;&#xA;The above copyright notice and this permission notice shall be included in&#xA;all copies or substantial portions of the Software.&#xA;&#xA;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#xA;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#xA;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xA;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#xA;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#xA;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN&#xA;THE SOFTWARE.&#xA;&#xA;#endregion" IncludeInNewFiles="True" />
+          <TextStylePolicy TabWidth="2" IndentWidth="2" NoTabsAfterNonTabs="True" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/xml" />
+          <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\members.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OpenTK.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Math3D\Math3D.csproj">
+      <Project>{D4458A95-7F38-47DB-AF86-FDED4E4233F3}</Project>
+      <Name>Math3D</Name>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+</Project>

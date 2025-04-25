@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CiliaControl</id>
+    <version>6.0.0.0</version>
+    <title>CiliaControl</title>
+    <authors>Galon's Lab</authors>
+    <owners>Galon's Lab</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>3D Viewer/Player Control</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright © Galon's Lab 2018</copyright>
+    <tags>3D 3DXml IGES</tags>
+  </metadata>
+</package>

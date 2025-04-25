@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="50">
+			<Rep xsi:type="BagRepType" id="49">
+				<Rep xsi:type="PolygonalRepType" id="2574" accuracy="0.339694" solid="0">
+					<Faces>
+						<Face strips="0 2 1 3">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.952941" green="0.996078" blue="0.694118" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="-160 -1.27898e-014 120,80 -1.27898e-014 120"/>
+						<Polyline vertices="-160 -1.42109e-015 -120,80 -1.42109e-015 -120"/>
+						<Polyline vertices="-160 -1.27898e-014 120,-160 -1.42109e-015 -120"/>
+						<Polyline vertices="80 -1.27898e-014 120,80 -1.42109e-015 -120"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-160 -1.27898e-014 120,-160 -1.42109e-015 -120,80 -1.27898e-014 120,80 -1.42109e-015 -120</Positions>
+						<Normals>-0 1 4.73695e-017,-0 1 4.73695e-017,-0 1 4.73695e-017,-0 1 4.73695e-017</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="111">
+				<Rep xsi:type="PolygonalRepType" id="2536" accuracy="0.283126" solid="0">
+					<Faces>
+						<Face strips="7 10 8 11,0 3 1 4" fans="9 5 4 3 2,2 6 7 8 9">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="0" green="0" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="-60 -2 100,-20 -2 100"/>
+						<Polyline vertices="-20 -2 100,-20 -2 20"/>
+						<Polyline vertices="-20 -2 20,60 -2 20"/>
+						<Polyline vertices="60 -2 20,60 -2 -20"/>
+						<Polyline vertices="60 -2 -20,-20 -2 -20"/>
+						<Polyline vertices="-20 -2 -20,-20 -2 -100"/>
+						<Polyline vertices="-20 -2 -100,-60 -2 -100"/>
+						<Polyline vertices="-60 -2 -100,-60 -2 -20"/>
+						<Polyline vertices="-60 -2 -20,-140 -2 -20"/>
+						<Polyline vertices="-140 -2 -20,-140 -2 20"/>
+						<Polyline vertices="-140 -2 20,-60 -2 20"/>
+						<Polyline vertices="-60 -2 20,-60 -2 100"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-140 -2 -20,-140 -2 20,-60 -2 -100,-60 -2 -20,-60 -2 20,-60 -2 100,-20 -2 -100,-20 -2 -20,-20 -2 20,-20 -2 100,60 -2 -20,60 -2 20</Positions>
+						<Normals>-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

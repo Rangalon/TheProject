@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XMLRepresentation version="1.2" xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.3ds.com/xsd/3DXML">
+	<Root xsi:type="BagRepType" id="2">
+		<Rep xsi:type="BagRepType" id="51">
+			<Rep xsi:type="BagRepType" id="50">
+				<Rep xsi:type="PolygonalRepType" id="1267" accuracy="0.226557" solid="0">
+					<Faces>
+						<Face strips="0 2 1 3">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="0.501961" green="0" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="1" green="1" blue="1" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="50 0 -80,-110 0 -80"/>
+						<Polyline vertices="-110 0 -80,-110 0 80"/>
+						<Polyline vertices="-110 0 80,50 0 80"/>
+						<Polyline vertices="50 0 80,50 0 -80"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-110 0 -80,-110 0 80,50 0 -80,50 0 80</Positions>
+						<Normals>-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+			<Rep xsi:type="BagRepType" id="79">
+				<Rep xsi:type="PolygonalRepType" id="1175" accuracy="0.169989" solid="0">
+					<Faces>
+						<Face strips="2 3 0 1">
+							<SurfaceAttributes>
+								<Color xsi:type="RGBAColorType" red="1" green="1" blue="0" alpha="1"/>
+							</SurfaceAttributes>
+						</Face>
+					</Faces>
+					<Edges>
+						<LineAttributes lineType="SOLID" thickness="2">
+							<Color xsi:type="RGBAColorType" red="1" green="1" blue="0" alpha="1"/>
+						</LineAttributes>
+						<Polyline vertices="30 -2 60,30 -2 -60"/>
+						<Polyline vertices="30 -2 -60,-90 -2 -60"/>
+						<Polyline vertices="-90 -2 -60,-90 -2 60"/>
+						<Polyline vertices="-90 -2 60,30 -2 60"/>
+					</Edges>
+					<VertexBuffer>
+						<Positions>-90 -2 -60,-90 -2 60,30 -2 -60,30 -2 60</Positions>
+						<Normals>-0 -1 -0,-0 -1 -0,-0 -1 -0,-0 -1 -0</Normals>
+					</VertexBuffer>
+				</Rep>
+			</Rep>
+		</Rep>
+	</Root>
+</XMLRepresentation>

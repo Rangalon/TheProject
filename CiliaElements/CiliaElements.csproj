@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F8533EE7-1159-462B-ACDD-00155320D2A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CiliaElements</RootNamespace>
+    <AssemblyName>Cilia Elements</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Cilia.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>true</Optimize>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>none</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>true</Optimize>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.4.2.13, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\SharpZipLib.1.4.2\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\Cilia\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Elements\3DXml\T3DRepElement.cs" />
+    <Compile Include="Elements\3DXml\T3DXmlElement.cs" />
+    <Compile Include="Elements\3DXml\TInstance3D.cs" />
+    <Compile Include="Elements\3DXml\TInstanceRep.cs" />
+    <Compile Include="Elements\3DXml\TReference3D.cs" />
+    <Compile Include="Elements\3DXml\TReferenceRep.cs" />
+    <Compile Include="Elements\Cilia\TCiliaAssembly.cs" />
+    <Compile Include="Elements\Cilia\TCiliaSolid.cs" />
+    <Compile Include="Elements\Control\IIcon.cs" />
+    <Compile Include="Elements\Control\TControl.cs" />
+    <Compile Include="Elements\Control\TButton.cs" />
+    <Compile Include="Elements\Control\TIconBar.cs" />
+    <Compile Include="Elements\Control\TIconBarButton.cs" />
+    <Compile Include="Elements\Control\TLabel.cs" />
+    <Compile Include="Elements\Control\TLinkPanel.cs" />
+    <Compile Include="Elements\Control\TPerformancesPanel.cs" />
+    <Compile Include="Elements\Control\TPicture.cs" />
+    <Compile Include="Elements\Control\TSlider.cs" />
+    <Compile Include="Elements\Control\TThreadsPanel.cs" />
+    <Compile Include="Elements\Control\TTreeView.cs" />
+    <Compile Include="Elements\Control\TVectorPanel.cs" />
+    <Compile Include="Elements\Internals\TAnnotation.cs" />
+    <Compile Include="Elements\Internals\TArrow.cs" />
+    <Compile Include="Elements\Internals\TBox.cs" />
+    <Compile Include="Elements\Internals\TBeam.cs" />
+    <Compile Include="Elements\Internals\TPoint.cs" />
+    <Compile Include="Elements\Internals\TWire.cs" />
+    <Compile Include="Elements\Json\TJsonElement.cs" />
+    <Compile Include="Managers\Compute.cs" />
+    <Compile Include="Managers\Joystick.cs" />
+    <Compile Include="Managers\Physics.cs" />
+    <Compile Include="Elements\Entities\SBoundingBox3.cs" />
+    <Compile Include="Elements\Entities\TCloud.cs" />
+    <Compile Include="Elements\Entities\TEntity.cs" />
+    <Compile Include="Elements\Entities\TGroup.cs" />
+    <Compile Include="Elements\Entities\TShape.cs" />
+    <Compile Include="Elements\Entities\TTexture.cs" />
+    <Compile Include="Elements\Internals\TCross.cs" />
+    <Compile Include="Elements\Internals\TGround.cs" />
+    <Compile Include="Elements\Internals\TInternal.cs" />
+    <Compile Include="Elements\TAssemblyElement.cs" />
+    <Compile Include="Elements\TAssemblyElementLoader.cs" />
+    <Compile Include="Elements\TBaseElement.cs" />
+    <Compile Include="Elements\TBaseElementLoader.cs" />
+    <Compile Include="Elements\TSolidElementConstruction.cs" />
+    <Compile Include="Elements\TSolidElementLoader.cs" />
+    <Compile Include="Managers\Files.cs" />
+    <Compile Include="Managers\Internals.cs" />
+    <Compile Include="Managers\TManager.cs" />
+    <Compile Include="Managers\Variables.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\IOpenFileDialog.cs" />
+    <Compile Include="Managers\Keyboard.cs" />
+    <Compile Include="Utilities\TLayer.cs" />
+    <Compile Include="Utilities\TMeasureActions.cs" />
+    <Compile Include="Managers\Models.cs" />
+    <Compile Include="Managers\Mouse.cs" />
+    <Compile Include="Utilities\TLinksQuickStack.cs" />
+    <Compile Include="Utilities\TQuickStack.cs" />
+    <Compile Include="Managers\View.cs" />
+    <Compile Include="Utilities\MEnums.cs" />
+    <Compile Include="Managers\Shaders.cs" />
+    <Compile Include="Utilities\TCustomAttribute.cs" />
+    <Compile Include="Utilities\TFile.cs" />
+    <Compile Include="Utilities\TLink.cs" />
+    <Compile Include="Elements\TSolidElement.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\TDictionary.cs" />
+    <Compile Include="Utilities\TTextRange.cs" />
+    <Compile Include="Utilities\TThreadGoverner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\Symbols.3dxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cilia.ico" />
+    <None Include="Resources\Views.png" />
+    <None Include="Resources\View Top.png" />
+    <None Include="Resources\View All.png" />
+    <None Include="Resources\View Sel.png" />
+    <None Include="Resources\View Bottom.png" />
+    <None Include="Resources\View Left.png" />
+    <None Include="Resources\View Right.png" />
+    <None Include="Resources\View Front.png" />
+    <None Include="Resources\View Rear.png" />
+    <None Include="Resources\gear.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\Draw Coordinates.png" />
+    <None Include="Resources\Draw Faces.png" />
+    <None Include="Resources\Draw Lines.png" />
+    <None Include="Resources\Draw Points.png" />
+    <None Include="Resources\Draw Performances.png" />
+    <None Include="Resources\anchor.png" />
+    <None Include="Resources\Rotation.png" />
+    <None Include="Resources\Perspective.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Math3D\Math3D.csproj">
+      <Project>{D4458A95-7F38-47DB-AF86-FDED4E4233F3}</Project>
+      <Name>Math3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenTK\OpenTK.csproj">
+      <Project>{A37A7E14-0000-0000-0000-000000000000}</Project>
+      <Name>OpenTK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
