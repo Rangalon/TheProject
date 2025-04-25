@@ -535,6 +535,7 @@ namespace CiliaElements
             ComputeThread.Abort();
             //MoverSpiderThread.Abort();
             TControl.StopAll();
+            TTimer.AllActivated = false;
         }
 
         #endregion Public Methods

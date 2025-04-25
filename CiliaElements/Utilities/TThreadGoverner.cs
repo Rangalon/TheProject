@@ -5,11 +5,11 @@ namespace CiliaElements.Utilities
 {
     public class TThreadGoverner
     {
-        public static readonly TThreadGoverner Compute = new TThreadGoverner(100);
-        public static readonly TThreadGoverner GPU = new TThreadGoverner(100);
-        public static readonly TThreadGoverner CPU = new TThreadGoverner(100);
-        public static readonly TThreadGoverner Draw = new TThreadGoverner(100);
-        public static readonly TThreadGoverner Pick = new TThreadGoverner(20);
+        public static readonly TThreadGoverner Compute = new TThreadGoverner(1000);
+        public static readonly TThreadGoverner GPU = new TThreadGoverner(1000);
+        public static readonly TThreadGoverner CPU = new TThreadGoverner(1000);
+        public static readonly TThreadGoverner Draw = new TThreadGoverner(1000);
+        public static readonly TThreadGoverner Pick = new TThreadGoverner(2000);
 
 
         public readonly double MaxPS;

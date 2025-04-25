@@ -158,6 +158,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TTimer.cs" />
     <Compile Include="Utilities\IOpenFileDialog.cs" />
     <Compile Include="Managers\Keyboard.cs" />
     <Compile Include="Utilities\TLayer.cs" />

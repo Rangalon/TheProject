@@ -85,15 +85,25 @@ namespace CiliaControl
             //TManager.Focused = (ParentForm.Handle == NativeMethods.ForegroundWindow);
             // 
             CPUGovernor.Reset();
+
             TManager.DrawView();
+
             CPUGovernor.Check();
             //
             GPUGovernor.Reset();
+
+
             SwapBuffers();
             GL.Finish();
+
+
             GPUGovernor.Check();
+
+
             //
             Refresh();
+
+
             DrawGovervor.Check();
         }
 
