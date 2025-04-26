@@ -14,6 +14,7 @@ namespace Planets.Classes
 
         public Vec4 Position { get; set; }
         public Mtx4 Orientation { get; set; } = Mtx4.Identity;
+        public Vec4 Speed { get; set; }
         public static void GeneratePlanets()
         {
             TManager.CrossLink.Enabled = false;
@@ -29,7 +30,6 @@ namespace Planets.Classes
             return string.Format("{0:X2} {1}", IdPlanet, Position);
         }
 
-        public Vec4 Speed { get; set; }
 
         static int IdPlanets;
         public readonly int IdPlanet;

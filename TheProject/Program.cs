@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TheProject.Planets;
 
 namespace TheProject
 {
@@ -17,6 +18,7 @@ namespace TheProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            TUniverse.Activate();
             Application.Run(new Form1());
 
             TManager.StopDoers();

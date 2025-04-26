@@ -37,8 +37,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planets\TPlanet.cs" />
+    <Compile Include="Planets\TUniverse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Snub\TSnubDodecahedron.cs" />
+    <Compile Include="TRandom.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -50,6 +54,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,6 +82,13 @@
       <Project>{76f521e5-3e6a-4c44-99f6-4ef4a3466c74}</Project>
       <Name>GLControl</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Math3D\Math3D.csproj">
+      <Project>{d4458a95-7f38-47db-af86-fded4e4233f3}</Project>
+      <Name>Math3D</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rnd.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
