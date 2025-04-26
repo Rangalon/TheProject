@@ -37,6 +37,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planets\IHyperObject.cs" />
     <Compile Include="Planets\TPlanet.cs" />
     <Compile Include="Planets\TUniverse.cs" />
     <Compile Include="Program.cs" />

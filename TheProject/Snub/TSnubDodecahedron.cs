@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace Planets.Classes
+namespace TheProject.Snub
 {
     public abstract class TSnubDodecahedron
     {

@@ -51,7 +51,7 @@ namespace Planets.Classes
             grp.Dispose();
             brs.Dispose();
 
-            TCloud Positions = SolidElementConstruction.AddCloud();
+            TCloud Positions = SolidElementConstruction.AddCloud(); 
             TCloud Normals = SolidElementConstruction.AddCloud();
             TFGroup Faces = null;
             Faces = SolidElementConstruction.AddFGroup();

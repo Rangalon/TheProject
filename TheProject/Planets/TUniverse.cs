@@ -1,5 +1,7 @@
 ﻿using CiliaElements;
+using Math3D;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
@@ -29,9 +31,36 @@ namespace TheProject.Planets
             Universe.ToBeReplaced = false;
             Universe.NodeName = "Universe";
 
+            List<Vec4 > positions=new List<Vec4>();
+            Vec4 vec = new Vec4();
+            for (double i1 = -7.5; i1 < 8; i1++)
+            {
+                vec.X = i1;
+                for (double i2 = -7.5; i2 < 8; i2++)
+                {
+                    vec.Y = i2;
+                    for (double i3 = -7.5; i3 < 8; i3++)
+                    {
+                        vec.Z = i3;
+                        for (double i4 = -7.5; i4 < 8; i4++)
+                        {
+                            vec.W = 1;// i4;
+                            positions.Add(vec);
+                        }
+                    }
+                }
+            }
+
+
+            TRandom posrandom=new TRandom();
+
+
             for (int i = 0; i < PlanetsQty; i++)
             {
                 TPlanet planet = new TPlanet(i);
+                vec = positions[posrandom.PopInt(positions.Count)];
+                planet.Position  = 1000*vec;
+                positions.RemoveAll(o => (o - vec).FullLengthSquared < 2);
             }
 
             HyperEngineTimer = new TTimer("HyperSpace", 50, DoHyperSpace, Array.Empty<TTimer>());
