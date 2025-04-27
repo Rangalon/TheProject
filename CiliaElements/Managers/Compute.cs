@@ -19,7 +19,7 @@ namespace CiliaElements
             TThreadGoverner w = TThreadGoverner.Compute;
             while (DoerComputeActivated)
             {
-
+               
 
                 lock (LinksToMove)
                 {

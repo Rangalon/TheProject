@@ -58,7 +58,7 @@ namespace Universe
 
         static TGeoTile()
         {
-            m = 128 / mbitmap;
+            m = 1024 / mbitmap;
             NbPoints = m * (m - 1) / 2;
 
             Repository = new DirectoryInfo("C:\\Users\\Public\\Documents\\GeoTiles");

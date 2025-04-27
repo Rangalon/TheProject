@@ -125,6 +125,8 @@ namespace CiliaElements
 
         public bool NoEffect;
         public bool Ethereal = false;
+        public bool NoDiffuse;
+        public bool NoCulling;
 
         #endregion Private Fields
 
@@ -767,6 +769,10 @@ namespace CiliaElements
                                 link.Giving.NoEffectValue = 1;
                             else
                                 link.Giving.NoEffectValue = 0;
+                            if (link.NoDiffuse)
+                                link.Giving.NoDiffuseValue = 1;
+                            else
+                                link.Giving.NoDiffuseValue = 0;
                             //
                             Array.ForEach(TManager.Layers, layer =>
                              {

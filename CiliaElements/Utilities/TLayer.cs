@@ -33,6 +33,7 @@ namespace CiliaElements
             Color = Mtx4f.Identity;
             Selected = false;
             NoEffectValue = 0;
+            NoDiffuseValue = 0;
         }
 
         public TLink Link;
@@ -41,5 +42,6 @@ namespace CiliaElements
         internal Mtx4f Color;
         internal bool Selected;
         internal int NoEffectValue;
+        internal int NoDiffuseValue;
     }
 }

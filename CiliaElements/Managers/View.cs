@@ -248,7 +248,7 @@ namespace CiliaElements
                           GL.BindBuffer(BufferTarget.ElementArrayBuffer, gvg.Link.Solid.HandleIndexes);
                           GL.UniformMatrix4(HandleModelMatrix, false, gvg.Matrix);
                           
-                          DrawSolid(gvg.Link.Solid);
+                          DrawSolid(gvg.Link.Solid,gvg.NoDiffuseValue );
                           // 
                       });
                 //
@@ -698,57 +698,57 @@ namespace CiliaElements
         }
 
 
-        private static void Draw0(TSolidElement s)
+        private static void Draw0(TSolidElement s, int noDiffuse)
         {
         }
 
-        private static void Draw1(TSolidElement s)
+        private static void Draw1(TSolidElement s, int noDiffuse)
         {
             GL.Uniform1i(HandleNoDiffuse, 1);
             GL.DrawElements(BeginMode.Points, s.PointsNumber, DrawElementsType.UnsignedInt, s.PointsStarter);
         }
 
-        private static void Draw2(TSolidElement s)
+        private static void Draw2(TSolidElement s, int noDiffuse)
         {
             GL.Uniform1i(HandleNoDiffuse, 1);
             GL.DrawElements(BeginMode.Lines, s.LinesNumber, DrawElementsType.UnsignedInt, s.LinesStarter);
         }
 
-        private static void Draw3(TSolidElement s)
+        private static void Draw3(TSolidElement s, int noDiffuse)
         {
             GL.Uniform1i(HandleNoDiffuse, 1);
             GL.DrawElements(BeginMode.Lines, s.LinesNumber, DrawElementsType.UnsignedInt, s.LinesStarter);
             GL.DrawElements(BeginMode.Points, s.PointsNumber, DrawElementsType.UnsignedInt, s.PointsStarter);
         }
 
-        private static void Draw4(TSolidElement s)
+        private static void Draw4(TSolidElement s, int noDiffuse)
         {
-            GL.Uniform1i(HandleNoDiffuse, 0);
+            GL.Uniform1i(HandleNoDiffuse, noDiffuse);
             GL.DrawElements(BeginMode.Triangles, s.FacesNumber, DrawElementsType.UnsignedInt, s.FacesStarter);
             facetsNumber += s.FacesNumber;
         }
 
-        private static void Draw5(TSolidElement s)
+        private static void Draw5(TSolidElement s, int noDiffuse)
         {
-            GL.Uniform1i(HandleNoDiffuse, 0);
+            GL.Uniform1i(HandleNoDiffuse, noDiffuse);
             GL.DrawElements(BeginMode.Triangles, s.FacesNumber, DrawElementsType.UnsignedInt, s.FacesStarter);
             facetsNumber += s.FacesNumber;
             GL.Uniform1i(HandleNoDiffuse, 1);
             GL.DrawElements(BeginMode.Points, s.PointsNumber, DrawElementsType.UnsignedInt, s.PointsStarter);
         }
 
-        private static void Draw6(TSolidElement s)
+        private static void Draw6(TSolidElement s, int noDiffuse)
         {
-            GL.Uniform1i(HandleNoDiffuse, 0);
+            GL.Uniform1i(HandleNoDiffuse, noDiffuse);
             GL.DrawElements(BeginMode.Triangles, s.FacesNumber, DrawElementsType.UnsignedInt, s.FacesStarter);
             facetsNumber += s.FacesNumber;
             GL.Uniform1i(HandleNoDiffuse, 1);
             GL.DrawElements(BeginMode.Lines, s.LinesNumber, DrawElementsType.UnsignedInt, s.LinesStarter);
         }
 
-        private static void Draw7(TSolidElement s)
+        private static void Draw7(TSolidElement s, int noDiffuse)
         {
-            GL.Uniform1i(HandleNoDiffuse, 0);
+            GL.Uniform1i(HandleNoDiffuse, noDiffuse);
             GL.DrawElements(BeginMode.Triangles, s.FacesNumber, DrawElementsType.UnsignedInt, s.FacesStarter);
             facetsNumber += s.FacesNumber;
             GL.Uniform1i(HandleNoDiffuse, 1);

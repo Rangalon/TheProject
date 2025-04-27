@@ -76,7 +76,8 @@ namespace CiliaElements
                 Matrix = iElmtLink.Matrix,
                 State = iElmtLink.State,
                 ForeColor = iElmtLink.ForeColor,
-                BackColor = iElmtLink.BackColor
+                BackColor = iElmtLink.BackColor,
+                NoDiffuse=iElmtLink.NoDiffuse
             };
             //If link.Child.Fi IsNot Nothing Then link.File = UsedFiles(link.Child.Fi.FullName.ToUpper)
             if (iElmtLink.Child is TSolidElement | iElmtLink.ToBeReplaced)

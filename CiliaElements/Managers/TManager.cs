@@ -95,7 +95,7 @@ namespace CiliaElements
 
         #region Private Delegates
 
-        private delegate void DrawSolidCB(TSolidElement s);
+        private delegate void DrawSolidCB(TSolidElement s, int noDiffuse);
 
         public delegate void KeyPressedEventHandler(OpenTK.Input.Key iKey, EKeybordModifiers iModifiers);
 

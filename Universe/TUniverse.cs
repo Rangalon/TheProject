@@ -22,7 +22,7 @@ namespace Universe
           
             //
           
-            TSnubDodecahedron dodec = new TSnubDodecahedron(3);
+            TSnubDodecahedron dodec = new TSnubDodecahedron(0);
             Ept e;
             Vec3 p0 = new Vec3(), p;
             Vec3 mem;
@@ -55,7 +55,7 @@ namespace Universe
             Mtx4 m;
             TLink link;
             TSDDHFacet facet;
-            double searchRadius = 1;
+            double searchRadius = 10;
 
           
             while (DoerTilesEnabled)
@@ -67,7 +67,7 @@ namespace Universe
 
                 fctsp0 = facets.Keys.Where(o => Math.Abs(o.X - p.X) < searchRadius && Math.Abs(o.Y - p.Y) < searchRadius && Math.Abs(o.Z - p.Z) < searchRadius).ToArray();
 
-                searchRadius = Math.Min(searchRadius * 2, 1e6);
+                searchRadius = Math.Min(searchRadius * 2, 1e8);
 
                 foreach (Vec3 v0 in fctsp0)
                 {
@@ -81,8 +81,8 @@ namespace Universe
                     link.Matrix = m;
                     link.NodeName = "Geo" + v0.ToString();
                     link.PendingMatrix = m;
-                    //link.NoDiffuse = true;
-                    //link.NoCulling = true;
+                    link.NoDiffuse = true;
+                    link.NoCulling = true;
                     link.ToBeReplaced = false;
 
                     while (geoTile.State != EElementState.Pushed && DoerTilesEnabled) Thread.Sleep(10);
@@ -98,8 +98,8 @@ namespace Universe
                     link.Matrix = m;
                     link.NodeName = "GeoSky" + v0.ToString();
                     link.PendingMatrix = m;
-                    //link.NoDiffuse = true;
-                    //link.NoCulling = true;
+                    link.NoDiffuse = true;
+                    link.NoCulling = true;
                     link.ToBeReplaced = false;
 
                     while (geoTile.State != EElementState.Pushed && DoerTilesEnabled) Thread.Sleep(10);
