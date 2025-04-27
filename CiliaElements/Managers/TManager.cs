@@ -150,7 +150,7 @@ namespace CiliaElements
             get
             {
                 long l = 0;
-                foreach (TFile file in UsedFiles.Values.Where(o => o != null && o.Element != null && o.Element.State == EElementState.Pushed && !(o.Element is TInternal) && o.Element.Fi.Exists))
+                foreach (TFile file in UsedFiles.Values.Where(o => o != null && o.Element != null && o.Element.State == EElementState.Pushed && !(o.Element is TInternal) && o.Element.Fi!=null && o.Element.Fi.Exists))
                 {
                     l += file.Element.Fi.Length;
                 }

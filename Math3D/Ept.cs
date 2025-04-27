@@ -13,7 +13,7 @@ namespace Math3D
         #region Public Fields
 
         //public static Geoid Geoid = new Geoid("egm2008-5", Properties.Resources.egm2008_5);
-        //public static readonly Geoid Geoid;
+        public static readonly Geoid Geoid;
 
         public readonly static double A = 6378137.0;
         public readonly static double BigR2 = A * A;
@@ -56,24 +56,20 @@ namespace Math3D
 
         #region Public Constructors
 
-        static Ept()
+        public static void Check()
         {
-            try
-            {
-                //Assembly ass = typeof(Ept).Assembly;
-                //FileInfo fi = new FileInfo(ass.Location);
-                //Geoid = new Geoid("egm2008-5", fi.Directory.FullName);
-                //Geoid = new Geoid("egm2008-5", Properties.Resources.egm2008_5);
-                //double h = Geoid.ConvertHeightToEllipsoid(43.616214, 1.379693, 151);
-            }
-            catch (Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
-
-            }
+            double h = Geoid.ConvertHeightToEllipsoid(43.616214, 1.379693, 0);
+            // Expected 49.43 for h
         }
 
-        //public double GetGeoidHeight() => Geoid.ConvertHeightToGeoid(lat, lon, hei);
+        static Ept()
+        {
+
+            Geoid = new Geoid("egm2008-5", Properties.Resources.egm2008_5);
+
+        }
+
+        public double GetGeoidHeight() => Geoid.ConvertHeightToGeoid(lat, lon, hei);
 
 
         public Ept(double ilon, double ilat, double ihei)
@@ -83,19 +79,34 @@ namespace Math3D
             lat = ilat;
             X = 0; Y = 0; Z = 0;
             ComputeLatLonPoint();
+            if (double.IsNaN(X))
+            {
+            }
         }
 
         public Ept(Ept p1, Ept p2) : this(0.5 * (p1 + p2), 0)
         {
             hei = 0;
             ComputeLatLonPoint();
+            if (double.IsNaN(X))
+            {
+            }
         }
 
         public Ept(Vec3 vec, double deltaE) : this(vec.X, vec.Y, vec.Z, deltaE)
-        { }
+        {
+            if (double.IsNaN(X))
+            {
+            }
+        }
 
         public Ept(double x, double y, double z, double deltaE)
         {
+            if (x == 0 && y == 0)
+            {
+                x = 1; y = 1;
+            }
+
             X = x; Y = y; Z = z;
             double tlon = Math.Atan2(y, x);
             lon = tlon * RadToDeg;
@@ -135,9 +146,13 @@ namespace Math3D
 
             double tlat = Math.Atan(A * (1 - t * t) / (2 * b * t));
             lat = RadToDeg * tlat;
-
             hei = (r - A * t) * Math.Cos(tlat) + (z - b) * Math.Sin(tlat) + deltaE;
+
+
             ComputeLatLonPoint();
+            if (double.IsNaN(X))
+            {
+            }
         }
 
         #endregion Public Constructors
@@ -239,8 +254,8 @@ namespace Math3D
             return string.Format("{0};{1}", Lon, Lat);
         }
 
-        //[MethodImpl(MethodImplOptions.AggressiveInlining)]
-        //public static Ept FromGeoid(double v1, double v2, double v3) => new Ept(v1, v2, v3 + v3 - (new Ept(v1, v2, v3)).GetGeoidHeight());
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static Ept FromGeoid(double v1, double v2, double v3) => new Ept(v1, v2, v3 + v3 - (new Ept(v1, v2, v3)).GetGeoidHeight());
 
         #endregion Public Methods
 

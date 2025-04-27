@@ -22,14 +22,13 @@ namespace CiliaElements.Elements.Internals
 
         #region Private Fields
 
-        private readonly Math.TRandom rnd = new Math.TRandom();
+        //  private readonly Math.TRandom rnd = new Math.TRandom();
 
         #endregion Private Fields
 
         #region Public Constructors
 
-        public TSnubDodecahedron()
-                   : base("SnubDodecahedron")
+        public TSnubDodecahedron() : base("SnubDodecahedron")
         {
         }
 
@@ -39,6 +38,8 @@ namespace CiliaElements.Elements.Internals
 
         public override void LaunchLoad()
         {
+            Random rnd = new Random();
+
             double f = (1.0 + System.Math.Sqrt(5)) * 0.5;
             double ff = 0.5 * System.Math.Sqrt(f - 5.0 / 27.0);
             double e = System.Math.Pow(0.5 * f + ff, 1.0 / 3.0) + System.Math.Pow(0.5 * f - ff, 1.0 / 3.0);
@@ -94,9 +95,9 @@ namespace CiliaElements.Elements.Internals
             int dr = 100;
             for (int i = 0; i < 10; i++)
             {
-                SolidBrush sb = new SolidBrush(Color.FromArgb((byte)(rnd.NextUFloat() * 256), (byte)(rnd.NextUFloat() * 256), (byte)(rnd.NextUFloat() * 256), (byte)(rnd.NextUFloat() * 256)));
-                int x = (int)(200 * rnd.NextUFloat()); if (x > 100) x -= 200;
-                int y = (int)(200 * rnd.NextUFloat()); if (y > 100) y -= 200;
+                SolidBrush sb = new SolidBrush(Color.FromArgb((byte)(rnd.Next() * 256), (byte)(rnd.Next() * 256), (byte)(rnd.Next() * 256), (byte)(rnd.Next() * 256)));
+                int x = (int)(200 * rnd.Next()); if (x > 100) x -= 200;
+                int y = (int)(200 * rnd.Next()); if (y > 100) y -= 200;
                 grp.FillEllipse(sb, x - dr, y - dr, 2 * dr, 2 * dr);
                 grp.FillEllipse(sb, 200 + x - dr, y - dr, 2 * dr, 2 * dr);
                 grp.FillEllipse(sb, x - dr, 200 + y - dr, 2 * dr, 2 * dr);
@@ -255,7 +256,7 @@ namespace CiliaElements.Elements.Internals
             TFacet.Radius = 0.9 * rs[0];
 
             for (int i = 0; i < Positions.Vectors.Max; i++)
-                Faces.ShapeGroupParameters.Textures.Vectors.Push(new Vec2(rnd.NextUDouble(), rnd.NextUDouble()));
+                Faces.ShapeGroupParameters.Textures.Vectors.Push(new Vec2(rnd.Next(), rnd.Next()));
 
             Facets = fcs.ToArray();
             //

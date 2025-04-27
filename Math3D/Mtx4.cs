@@ -1307,6 +1307,23 @@ namespace Math3D
 
         #endregion Public Methods
 
+        public static Mtx4 CreateFromEptAndPsi(Ept e, double psy)
+        {
+            Ept ep = new Ept(e.X, e.Y, e.Z, 100);
+            Mtx4 mtx4 = new Mtx4
+            {
+                Row3 = (Vec4)e,
+                Row2 = (Vec4)ep - (Vec4)e,
+                Row0 = new Vec4(0, 0, 1, 0)
+            };
+            mtx4.Row1 = Vec4.Cross(mtx4.Row2, mtx4.Row0);
+            mtx4.Row0 = Vec4.Cross(mtx4.Row1, mtx4.Row2);
+            //
+            mtx4.Normalize();
+            mtx4 = Mtx4.CreateRotationZ(-psy * Ept.DegToRad) * mtx4;
+            //
+            return mtx4;
+        }
         //------------------------------------------------------------------------------------------------------------------------------------------------------
     }
 

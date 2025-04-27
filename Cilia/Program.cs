@@ -1,6 +1,8 @@
 ﻿using CiliaElements;
+using Math3D;
 using System;
 using System.Windows.Forms;
+using Universe;
 
 namespace Cilia
 {
@@ -14,10 +16,12 @@ namespace Cilia
         [STAThread]
         private static void Main()
         {
+     
             //if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //FSplash.ShowSplash();
+            TUniverse.Setup ();
             Application.Run(new FMain());
             TManager.StopDoers();
         }

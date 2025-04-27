@@ -86,6 +86,12 @@ namespace Math3D
             left.Y -= right.Y;
             return left;
         }
+        public static Vec2 operator -(Vec2 left, Vec2i right)
+        {
+            left.X -= right.X;
+            left.Y -= right.Y;
+            return left;
+        }
 
         public static Vec2 operator -(Vec2 left)
         {

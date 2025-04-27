@@ -61,6 +61,7 @@
     <Optimize>false</Optimize>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>
@@ -174,6 +175,14 @@
     <ProjectReference Include="..\GL-Control\GLControl.csproj">
       <Project>{76f521e5-3e6a-4c44-99f6-4ef4a3466c74}</Project>
       <Name>GLControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Math3D\Math3D.csproj">
+      <Project>{D4458A95-7F38-47DB-AF86-FDED4E4233F3}</Project>
+      <Name>Math3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Universe\Universe.csproj">
+      <Project>{8e0161a5-9011-4494-811e-bef00cc8e04b}</Project>
+      <Name>Universe</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
